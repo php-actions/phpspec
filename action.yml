@@ -1,0 +1,19 @@
+name: phpspec (php-actions)
+description: Run your phpspec tests in your Github Actions.
+
+inputs:
+  config:
+    description: Configuration file location
+    required: false
+    default: test/phpspec/phpspec.yml
+
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
+  args:
+    - -c
+    - ${{ inputs.config }}
+
+branding:
+  icon: 'check-square'
+  color: 'purple'
