@@ -5,8 +5,6 @@ Run your phpspec tests in your Github Actions.
 
 phpspec is a tool which can help you write clean and working PHP code using behaviour driven development or BDD. BDD is a technique derived from test-first development.
 
-
-
 Usage
 -----
 
