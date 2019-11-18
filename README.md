@@ -21,9 +21,9 @@ jobs:
 
     steps:
     - uses: actions/checkout@v1
-    - uses: phpactions/composer@master # or alternative dependency management
+    - uses: php-actions/composer@master # or alternative dependency management
     - name: phpspec
-      uses: phpactions/phpspec@master
+      uses: php-actions/phpspec@master
       with:
         config: phpspec.yml # or wherever your config file is
     # ... then your own project steps ...
