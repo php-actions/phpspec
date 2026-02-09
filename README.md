@@ -1,4 +1,4 @@
-<img src="http://52.48.57.141/php-actions.png" align="right" alt="PHP Actions for Github" />
+<img src="https://avatars.githubusercontent.com/u/54269877" align="right" alt="PHP Actions for Github" />
 
 Run your phpspec tests in your Github Actions.
 ==============================================
